@@ -136,7 +136,7 @@
             + '    <div class="_variations" ng-style="{ backgroundColor: hueBackgroundColor }">'
             + '        <div class="_whites">'
             + '            <div class="_blacks">'
-            + '                <div class="_cursor" ng-if="colorCursor" ng-style="{ left: colorCursor.x - 5 + \'px\', top: colorCursor.y - 5 + \'px\' }"></div>'
+            + '                <div class="_cursor" ng-if="colorCursor" ng-style="{ left: colorCursor.x - 4 + \'px\', top: colorCursor.y - 4 + \'px\' }">o</div>'
             + '                <div class="_mouse-trap" ng-mousedown="startDrag($event, \'color\')"></div>'
             + '            </div>'
             + '        </div>'
@@ -149,7 +149,7 @@
             + '        <div class="_ie-4"></div>'
             + '        <div class="_ie-5"></div>'
             + '        <div class="_ie-6"></div>'
-            + '        <div class="_cursor" ng-style="{ top: hueCursor - 5 + \'px\' }"></div>'
+            + '        <div class="_cursor" ng-style="{ top: hueCursor - 10 + \'px\' }">&#9654;&#9664;</div>'
             + '        <div class="_mouse-trap" ng-mousedown="startDrag($event, \'hue\')"></div>'
             + '    </div>'
             + '</div>';
